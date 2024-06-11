@@ -1,4 +1,3 @@
-<a href="https://blog.csdn.net/weixin_68658847/article/details/139550100">这个文档内图片有缺失,建议大家点击去本人csdn里面看</a>
 # 创建项目
 **运行如下命令**
 ```js
