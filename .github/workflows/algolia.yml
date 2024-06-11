@@ -1,4 +1,4 @@
-name: xiaojinetlify
+name: algolia
 on:
   push:
     branches:
