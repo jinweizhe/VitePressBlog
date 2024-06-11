@@ -4,17 +4,17 @@ layout: home
 
 hero:
   image: 
-    src: "/img.jpg"
+    src: /word.svg
     alt: '图片'
   name: "萧寂博客网站"
-  text: "这里有很多编程知识"
-  tagline: 欢迎大家一起学习
+  text: "牛马人的极乐世界"
+  tagline: 右边的就是我噢
   actions:
     - theme: brand
       text: 开始学习
       link: /startStudy
     - theme: alt
-      text: 查看详情 
+      text: 查看版本更新
       link: /detial
 
 features:
