@@ -4991,7 +4991,7 @@ function useFileSystemAccess(options = {}) {
   };
 }
 function useFocus(target, options = {}) {
-  const { initialValue = false, focusVisible = false } = options;
+  const { initialValue = false, focusVisible = false, preventScroll = false } = options;
   const innerFocused = ref(false);
   const targetElement = computed(() => unrefElement(target));
   useEventListener(targetElement, "focus", (event) => {
@@ -5007,7 +5007,7 @@ function useFocus(target, options = {}) {
       if (!value && innerFocused.value)
         (_a = targetElement.value) == null ? void 0 : _a.blur();
       else if (value && !innerFocused.value)
-        (_b = targetElement.value) == null ? void 0 : _b.focus();
+        (_b = targetElement.value) == null ? void 0 : _b.focus({ preventScroll });
     }
   });
   watch(
@@ -7075,10 +7075,9 @@ function useSpeechRecognition(options = {}) {
         recognition.lang = lang2;
     });
     recognition.onresult = (event) => {
-      const transcript = Array.from(event.results).map((result2) => {
-        isFinal.value = result2.isFinal;
-        return result2[0];
-      }).map((result2) => result2.transcript).join("");
+      const currentResult = event.results[event.resultIndex];
+      const { transcript } = currentResult[0];
+      isFinal.value = currentResult.isFinal;
       result.value = transcript;
       error.value = void 0;
     };

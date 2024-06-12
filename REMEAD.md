@@ -6,4 +6,7 @@
 
 4.如果新加入的 md 文件存在所属分类的话,直接将其放到对应文件夹内即可
 
-每次更新文档后都去这里重新爬取一下网站:https://docsearch.algolia.com/apply 获取新的 key
+在开发环境中,搜索引擎会把资源路由都转成小写,但是在正式环境中,一切正常(做个提醒)
+
+每次更新后去这个网站重新爬取
+https://crawler.algolia.com/admin/crawlers/09e52ba8-dc8e-4d36-ab32-9efc95b495c7/getstarted

@@ -11,7 +11,7 @@ export default defineConfig({
       provider: 'algolia',
       options:{
         appId: '3H6ZOHPXIG', // 需要替换(Application ID)
-        apiKey: '82b7cf7b4ba0a0a17c85aeee85a75a2e', // 需要替换(Search API Key)
+        apiKey: 'fce7ee53800757b03a36004b9ebc1f52', // 需要替换(Search API Key)
         indexName: 'xiaojinetlify', // 需要替换(索引名)
         placeholder: '请输入关键词',
         buttonText: '搜索',
