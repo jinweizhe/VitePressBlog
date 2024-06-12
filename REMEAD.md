@@ -5,3 +5,5 @@
 3.右上角的标题分类在 config.mjs 里面进行配置和新增(不要忘了配置 sidebar 侧边栏)
 
 4.如果新加入的 md 文件存在所属分类的话,直接将其放到对应文件夹内即可
+
+每次更新文档后都去这里重新爬取一下网站:https://docsearch.algolia.com/apply 获取新的 key
