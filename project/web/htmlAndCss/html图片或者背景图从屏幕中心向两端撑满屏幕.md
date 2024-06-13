@@ -41,7 +41,7 @@
 
 使用时将 url('') 中的 '' 替换为实际的背景图片路径。确保图片的尺寸足够大，以适应不同分辨率的屏幕。
 
-# 图片非背景图
+# 2.图片非背景图
 
 要使图片作为前景图片充满整个屏幕，可以使用 CSS 的 width 和 height 属性，并将图片的 position 设置为 absolute 或 fixed。
 
@@ -80,3 +80,15 @@
 **效果图**
 ![在这里插入图片描述](/public/web/htmlAndCss/7020cd333ec642cc982e20f94fef4c04.png)
 ![在这里插入图片描述](/public/web/htmlAndCss/33e0423a3da34fbcadc005958269d7be.png)
+
+分析
+- .full-screen-image 类被应用到<img>元素上，这个元素被用来作为前景图片
+- width: 100%; 和 height: 100%; 用于确保图片的宽度和高度充满整个屏幕
+- position: absolute; 用于将图片定位在屏幕的左上角
+- top: 0; 和 left: 0; 用于确保图片从屏幕的顶部和左侧开始
+- object-fit: cover; 用于保持图片的纵横比，同时覆盖整个屏幕
+
+使用时将 src="1.jpg" 中的 '1.jpg' 替换为实际的图片路径。确保图片的尺寸足够大，以适应不同分辨率的屏幕。
+
+补充
+以上的示例中的CSS样式被直接写在了< head>标签内的< style>中，但在实际项目中，也可以将样式放在一个单独的CSS文件中，并通过< link>标签引入到HTML中
