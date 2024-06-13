@@ -8,30 +8,30 @@ export default defineConfig({
   description: "A VitePress Site",
   themeConfig: {
     search: {
-      provider: 'algolia',
-      options:{
-        appId: '3H6ZOHPXIG', // 需要替换(Application ID)
-        apiKey: 'fce7ee53800757b03a36004b9ebc1f52', // 需要替换(Search API Key)
-        indexName: 'xiaojinetlify', // 需要替换(索引名)
-        placeholder: '请输入关键词',
-        buttonText: '搜索',
-      }
-      // options: {
-      //   translations: {
-      //     button: {
-      //       buttonText: "搜索文档",
-      //       buttonAriaLabel: "搜索文档",
-      //     },
-      //     modal: {
-      //       noResultsText: "无法找到相关结果",
-      //       resetButtonTitle: "清除查询条件",
-      //       footer: {
-      //         selectText: "选择",
-      //         navigateText: "切换",
-      //       },
-      //     },
-      //   },
-      // },
+      provider: 'local',
+      // options:{
+        // appId: '3H6ZOHPXIG', // 需要替换(Application ID)
+        // apiKey: 'fce7ee53800757b03a36004b9ebc1f52', // 需要替换(Search API Key)
+        // indexName: 'xiaojinetlify', // 需要替换(索引名)
+        // placeholder: '请输入关键词',
+        // buttonText: '搜索',
+      // }
+      options: {
+        translations: {
+          button: {
+            buttonText: "搜索文档",
+            buttonAriaLabel: "搜索文档",
+          },
+          modal: {
+            noResultsText: "无法找到相关结果",
+            resetButtonTitle: "清除查询条件",
+            footer: {
+              selectText: "选择",
+              navigateText: "切换",
+            },
+          },
+        },
+      },
     },
     aside: "left",
     outlineTitle: "文章标题",

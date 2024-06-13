@@ -31,8 +31,8 @@
 ```
 
 **效果图**
-![在这里插入图片描述](/public/web/htmlAndCss/7020cd333ec642cc982e20f94fef4c04.png)
-![在这里插入图片描述](/public/web/htmlAndCss/33e0423a3da34fbcadc005958269d7be.png)
+![在这里插入图片描述](https://vite-press.oss-cn-beijing.aliyuncs.com/htmlAndCss/7020cd333ec642cc982e20f94fef4c04.png)
+![在这里插入图片描述](https://vite-press.oss-cn-beijing.aliyuncs.com/htmlAndCss/33e0423a3da34fbcadc005958269d7be.png)
 
 - background-image 属性用于指定背景图的路径
 - background-size: cover; 用于确保背景图覆盖整个屏幕，而不会失真或重复
@@ -78,8 +78,8 @@
 ```
 
 **效果图**
-![在这里插入图片描述](/public/web/htmlAndCss/7020cd333ec642cc982e20f94fef4c04.png)
-![在这里插入图片描述](/public/web/htmlAndCss/33e0423a3da34fbcadc005958269d7be.png)
+![在这里插入图片描述](https://vite-press.oss-cn-beijing.aliyuncs.com/htmlAndCss/7020cd333ec642cc982e20f94fef4c04.png)
+![在这里插入图片描述](https://vite-press.oss-cn-beijing.aliyuncs.com/htmlAndCss/33e0423a3da34fbcadc005958269d7be.png)
 
 分析
 - .full-screen-image 类被应用到<img>元素上，这个元素被用来作为前景图片
