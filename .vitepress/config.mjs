@@ -63,7 +63,8 @@ export default defineConfig({
         ],
       }, 
       { text: "nodejs", link: "/project/nodejs/0.nodejs分类简介.md" },
-      { text: "Mysql", link: "/project/database/0.数据库分类简介.md" }
+      { text: "Mysql", link: "/project/database/0.数据库分类简介.md" },
+      { text: "网站/插件推荐", link: "/project/website/0.网站推荐分类简介.md" }
     ],
 
     sidebar: {
@@ -80,6 +81,7 @@ export default defineConfig({
       "/project/nodejs/": set_sidebar("/project/nodejs"), 
       "/project/database/": set_sidebar("/project/database"), 
       "/project/web/axios/": set_sidebar("/project/web/axios"), 
+      "/project/website/": set_sidebar("/project/website"), 
     },
 
     socialLinks: [
