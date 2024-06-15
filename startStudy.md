@@ -15,3 +15,4 @@
 <a href="/project/website/前端">前端网页/插件推荐</a><br>
 <a href="/project/website/后端">后端网页/插件推荐</a><br>
 <a href="/project/website/数据库">数据库网页/插件推荐</a><br>
+<a href="/project/database/MySql学习笔记(基础+进阶)">MySql学习笔记(基础+进阶)</a><br>

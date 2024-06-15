@@ -1,6 +1,5 @@
-[推荐下这个网站的笔记,大家去看下,总结的挺好](https://dhc.pythonanywhere.com/article/public/1/#h3-ddl-)
+[当前文章只有关于SQL语句的,想看更为详细的点击查看这一篇文章](./MySql学习笔记(基础+进阶))
 
-[上面的笔记配套的视频教程](https://www.bilibili.com/video/BV1Kr4y1i7ru/?spm_id_from=333.337.search-card.all.click&vd_source=54b92ea953eb0a7281545e66410fc2f5)
 ## 常用的字段数据类型
 ```sql
 int：整型
