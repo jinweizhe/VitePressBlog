@@ -1046,7 +1046,7 @@ B-Tree (多路平衡查找树) 以一棵最大度数（max-degree，指一个节
 
 结构图：
 
-![B+Tree结构图](https://vite-press.oss-cn-beijing.aliyuncs.com/database/B+Tree结构图.png "B+Tree结构图")
+![B+Tree结构图](https://vite-press.oss-cn-beijing.aliyuncs.com/database/B%2BTree%E7%BB%93%E6%9E%84%E5%9B%BE.png "B+Tree结构图")
 
 > 演示地址：https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
 
@@ -1474,6 +1474,7 @@ NOTE：如果没有开检查选项就不会进行检查。不同版本是不同�
 
 ### 创建
 
+```mysql
 	CREATE PROCEDURE 存储过程名称( [参数列表] ) 
 	
 	BEGIN
@@ -1481,6 +1482,7 @@ NOTE：如果没有开检查选项就不会进行检查。不同版本是不同�
 		 SQL 语句 
 	
 	END;
+```
 
 
 NOTE: 在命令行中，执行创建存储过程的SQL时，需要通过关键字delimiter 指定SQL语句的结束符。默认是 分号作为结束符。
@@ -1544,6 +1546,7 @@ NOTE：要先声明普通变量，再申请游标。
 要求：
 `根据传入的参数uage，来查询用户表tb_user中，所有的用户年龄小于等于uage的用户姓名（name）和专业（profession），并将用户的姓名和专业插入到所创建的一张新表（id，name，profession）中。`
 
+```mysql
 	create procedure p1l(in uage int)
 	
 		begin
@@ -1582,7 +1585,7 @@ NOTE：要先声明普通变量，再申请游标。
 			close u_cursor; 
 	
 		end;
-
+```
 ## 触发器
 
 介绍  
