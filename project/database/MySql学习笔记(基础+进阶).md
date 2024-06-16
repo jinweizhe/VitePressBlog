@@ -304,7 +304,7 @@ FROM -> WHERE -> GROUP BY -> SELECT -> ORDER BY -> LIMIT
 查询用户：
 
 ```mysql
-USER mysql;
+USE mysql;
 SELECT * FROM user;
 ```
 
